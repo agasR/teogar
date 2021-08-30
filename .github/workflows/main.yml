@@ -23,7 +23,7 @@ jobs:
         md C:\Users\administrator\Growtopia\Cache
         md C:\Users\administrator\ProcessHacker
         md C:\Users\administrator\GABB
-        md C:\Users\administrator\EnetProxy
+        md C:\Users\administrator\EnetProxy.zip
      - name: Extracting Custom Programs
       run: |
         copy Growtopia.zip C:\Users\administrator\Growtopia\Growtopia.zip
