@@ -14,8 +14,8 @@ jobs:
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
     - name: Downloading Launcher
       run: |
-        Invoke-WebRequest https://raw.githubusercontent.com/amogu02/sdw/main/start.bat -OutFile start.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/amogu02/sdw/main/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/agasR/teogar/main/start.bat -OutFile start.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/agasR/teogar/main/loop.bat -OutFile loop.bat
     - name: Creating Paths
       run: |
         md C:\Users\administrator\Teohook
@@ -23,6 +23,7 @@ jobs:
         md C:\Users\administrator\Growtopia\Cache
         md C:\Users\administrator\ProcessHacker
         md C:\Users\administrator\GABB
+        md C:\Users\administrator\EnetProxy
      - name: Extracting Custom Programs
       run: |
         copy Growtopia.zip C:\Users\administrator\Growtopia\Growtopia.zip
