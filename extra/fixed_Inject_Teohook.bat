@@ -1,0 +1,1 @@
+"C:\Users\administrator\ProcessHacker\Process Hacker 2\ProcessHacker.exe" -c -ctype process -cobject Growtopia.exe -caction injectdll -cvalue C:\Users\administrator\Teohook\teohook.dll
